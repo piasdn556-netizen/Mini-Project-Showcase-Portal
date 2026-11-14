@@ -1,0 +1,5 @@
+{
+  "framework": "nextjs",
+  "installCommand": "node extract.cjs && npm install --ignore-scripts",
+  "buildCommand": "DATABASE_URL=file:/tmp/custom.db npm run build"
+}
